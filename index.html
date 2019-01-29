@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css' />
+</head>
+
+<body>
+    <div class='header'>
+        <h1>📰New York Times Search</h1>
+    </div>
+
+    <div class="bodyheader">
+        <h2>Search Parameters</h2>
+    </div>
+
+    <div class="maincontainer">
+
+        <h3>Search Term:</h3><br>
+        <input type='text' name='searchTerm' id='searchTerm'><br>
+        <h3>Number of Records to Retrieve:</h3><br>
+        <select type='text' name='recordNum' id='searchRecordNum'>
+            <option>1</option>
+            <option>5</option>
+            <option>10</option>
+        </select><br>
+        <h3>Start Year (Optional):</h3><br>
+        <input type='text' name='searchTerm' id='searchStart'><br>
+        <h3>End Year (Optional):</h3><br>
+        <input type='text' name='searchTerm' id='searchEnd'><br>
+        <br>
+        <input type='submit' id='searchButton' value='Search'>
+        <button type='button' id='clearResults'>Clear Results</button>
+    </div>
+
+    <div class="resultsHeader">
+        <h4>🗎Top Results</h4>
+    </div>
+    <div class="resultsSection">
+
+    </div>
+
+    <div class="footer">Made By Gabe, Mark and John.</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+</body>
